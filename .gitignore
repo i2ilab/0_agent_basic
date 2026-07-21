@@ -1,0 +1,24 @@
+# API 密钥——绝不上传
+.env
+
+# 教师版 / 助教版——不发学生
+workshop_tutorial.md
+助教评分要点_Agent作业1.md
+workshop_survey.md
+
+# 大文件 / 运行产物(可重新生成或重新下载)
+*.mp4
+*.wav
+audio.txt
+notes.md
+session.md
+
+# Python 运行产物
+__pycache__/
+*.pyc
+
+# 系统 / 本地
+.DS_Store
+# .claude/skills/ 是给学生用的 AI 教练，要随 repo 发布；只忽略本地设置
+.claude/settings.local.json
+archive/
